@@ -1,0 +1,22 @@
+Bay_Of_Ice: Sunset_Sea, Winterfell_Port
+Winterfell_Port: Bay_Of_Ice
+Sunset_Sea: Ironmans_Bay, The_Golden_Sound, West_Summer_Sea
+Ironmans_Bay: The_Golden_Sound, Sunset_Sea, Pyke_Port
+Pyke_Port: Ironmans_Bay
+The_Golden_Sound: Sunset_Sea, Ironmans_Bay, Lannisport_Port
+Lannisport_Port: The_Golden-Sound
+West_Summer_Sea: Redwyne_Straights, Sunset_Sea, East_Summer_Sea
+Redwyne_Straights: West_Summer_Sea, Oldtown_Port
+Oldtown_Port: Redwyne_Straights
+East_Summer_Sea: Sea_Of_Dorne, Sunspear_Port, Shipbreaker_Bay
+Sunspear_Port: East_Summer_Sea
+Sea_Of_Dorne: East_Summer_Sea
+Shipbreaker_Bay: East_Summer_Sea, Blackwater_Bay, The_Narrow_Sea, Dragonstone_Port, Storms_End_Port
+Storms_End_Port: Shipbreaker_Bay
+Dragonstone_Port: Shipbreaker_Bay
+Blackwater_Bay: Shipbreaker_Bay
+The_Narrow_Sea: Shipbreaker_bay, The_Shivering_Sea, White_Harbor_Port
+White_Harbor_Port: The_Narrow_Sea
+The_Shivering_Sea: The_Narrow_Sea
+
+

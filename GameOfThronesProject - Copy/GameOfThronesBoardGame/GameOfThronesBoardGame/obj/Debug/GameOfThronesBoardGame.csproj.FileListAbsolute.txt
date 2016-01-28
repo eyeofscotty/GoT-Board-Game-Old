@@ -1,0 +1,50 @@
+c:\users\scott.herscher\documents\visual studio 2013\Projects\GameOfThronesBoardGame\GameOfThronesBoardGame\bin\Debug\GameOfThronesBoardGame.exe.config
+c:\users\scott.herscher\documents\visual studio 2013\Projects\GameOfThronesBoardGame\GameOfThronesBoardGame\obj\Debug\GameOfThronesBoardGame.csprojResolveAssemblyReference.cache
+c:\users\scott.herscher\documents\visual studio 2013\Projects\GameOfThronesBoardGame\GameOfThronesBoardGame\obj\Debug\MainWindow.baml
+c:\users\scott.herscher\documents\visual studio 2013\Projects\GameOfThronesBoardGame\GameOfThronesBoardGame\obj\Debug\MainWindow.g.cs
+c:\users\scott.herscher\documents\visual studio 2013\Projects\GameOfThronesBoardGame\GameOfThronesBoardGame\obj\Debug\App.g.cs
+c:\users\scott.herscher\documents\visual studio 2013\Projects\GameOfThronesBoardGame\GameOfThronesBoardGame\obj\Debug\GameOfThronesBoardGame_MarkupCompile.cache
+c:\users\scott.herscher\documents\visual studio 2013\Projects\GameOfThronesBoardGame\GameOfThronesBoardGame\obj\Debug\GameOfThronesBoardGame.g.resources
+c:\users\scott.herscher\documents\visual studio 2013\Projects\GameOfThronesBoardGame\GameOfThronesBoardGame\obj\Debug\GameOfThronesBoardGame.Properties.Resources.resources
+c:\users\scott.herscher\documents\visual studio 2013\Projects\GameOfThronesBoardGame\GameOfThronesBoardGame\obj\Debug\GameOfThronesBoardGame.csproj.GenerateResource.Cache
+c:\users\scott.herscher\documents\visual studio 2013\Projects\GameOfThronesBoardGame\GameOfThronesBoardGame\bin\Debug\GameOfThronesBoardGame.exe
+c:\users\scott.herscher\documents\visual studio 2013\Projects\GameOfThronesBoardGame\GameOfThronesBoardGame\bin\Debug\GameOfThronesBoardGame.pdb
+c:\users\scott.herscher\documents\visual studio 2013\Projects\GameOfThronesBoardGame\GameOfThronesBoardGame\obj\Debug\GameOfThronesBoardGame.exe
+c:\users\scott.herscher\documents\visual studio 2013\Projects\GameOfThronesBoardGame\GameOfThronesBoardGame\obj\Debug\GameOfThronesBoardGame.pdb
+C:\Users\User\Desktop\GameOfThronesProject\GameOfThronesBoardGame\GameOfThronesBoardGame\bin\Debug\GameOfThronesBoardGame.exe.config
+C:\Users\User\Desktop\GameOfThronesProject\GameOfThronesBoardGame\GameOfThronesBoardGame\obj\Debug\GameOfThronesBoardGame.exe
+C:\Users\User\Desktop\GameOfThronesProject\GameOfThronesBoardGame\GameOfThronesBoardGame\obj\Debug\GameOfThronesBoardGame.pdb
+C:\Users\User\Desktop\GameOfThronesProject\GameOfThronesBoardGame\GameOfThronesBoardGame\bin\Debug\GameOfThronesBoardGame.exe
+C:\Users\User\Desktop\GameOfThronesProject\GameOfThronesBoardGame\GameOfThronesBoardGame\bin\Debug\GameOfThronesBoardGame.pdb
+C:\Users\User\Desktop\GameOfThronesProject\GameOfThronesBoardGame\GameOfThronesBoardGame\obj\Debug\GameOfThronesBoardGame.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\GameOfThronesProject\GameOfThronesBoardGame\GameOfThronesBoardGame\obj\Debug\MainWindow.baml
+C:\Users\User\Desktop\GameOfThronesProject\GameOfThronesBoardGame\GameOfThronesBoardGame\obj\Debug\MainWindow.g.cs
+C:\Users\User\Desktop\GameOfThronesProject\GameOfThronesBoardGame\GameOfThronesBoardGame\obj\Debug\App.g.cs
+C:\Users\User\Desktop\GameOfThronesProject\GameOfThronesBoardGame\GameOfThronesBoardGame\obj\Debug\GameOfThronesBoardGame_MarkupCompile.cache
+C:\Users\User\Desktop\GameOfThronesProject\GameOfThronesBoardGame\GameOfThronesBoardGame\obj\Debug\GameOfThronesBoardGame.g.resources
+C:\Users\User\Desktop\GameOfThronesProject\GameOfThronesBoardGame\GameOfThronesBoardGame\obj\Debug\GameOfThronesBoardGame.Properties.Resources.resources
+C:\Users\User\Desktop\GameOfThronesProject\GameOfThronesBoardGame\GameOfThronesBoardGame\obj\Debug\GameOfThronesBoardGame.csproj.GenerateResource.Cache
+C:\Users\scott.herscher\Desktop\GameOfThronesProject\GameOfThronesBoardGame\GameOfThronesBoardGame\obj\Debug\MainWindow.baml
+C:\Users\scott.herscher\Desktop\GameOfThronesProject\GameOfThronesBoardGame\GameOfThronesBoardGame\obj\Debug\MainWindow.g.cs
+C:\Users\scott.herscher\Desktop\GameOfThronesProject\GameOfThronesBoardGame\GameOfThronesBoardGame\obj\Debug\App.g.cs
+C:\Users\scott.herscher\Desktop\GameOfThronesProject\GameOfThronesBoardGame\GameOfThronesBoardGame\obj\Debug\GameOfThronesBoardGame_MarkupCompile.cache
+C:\Users\scott.herscher\Desktop\GameOfThronesProject\GameOfThronesBoardGame\GameOfThronesBoardGame\obj\Debug\GameOfThronesBoardGame.g.resources
+C:\Users\scott.herscher\Desktop\GameOfThronesProject\GameOfThronesBoardGame\GameOfThronesBoardGame\obj\Debug\GameOfThronesBoardGame.Properties.Resources.resources
+C:\Users\scott.herscher\Desktop\GameOfThronesProject\GameOfThronesBoardGame\GameOfThronesBoardGame\obj\Debug\GameOfThronesBoardGame.csproj.GenerateResource.Cache
+C:\Users\scott.herscher\Desktop\GameOfThronesProject\GameOfThronesBoardGame\GameOfThronesBoardGame\obj\Debug\GameOfThronesBoardGame.csprojResolveAssemblyReference.cache
+C:\Users\scott.herscher\Desktop\GameOfThronesProject\GameOfThronesBoardGame\GameOfThronesBoardGame\bin\Debug\GameOfThronesBoardGame.exe.config
+C:\Users\scott.herscher\Desktop\GameOfThronesProject\GameOfThronesBoardGame\GameOfThronesBoardGame\bin\Debug\GameOfThronesBoardGame.exe
+C:\Users\scott.herscher\Desktop\GameOfThronesProject\GameOfThronesBoardGame\GameOfThronesBoardGame\bin\Debug\GameOfThronesBoardGame.pdb
+C:\Users\scott.herscher\Desktop\GameOfThronesProject\GameOfThronesBoardGame\GameOfThronesBoardGame\obj\Debug\GameOfThronesBoardGame.exe
+C:\Users\scott.herscher\Desktop\GameOfThronesProject\GameOfThronesBoardGame\GameOfThronesBoardGame\obj\Debug\GameOfThronesBoardGame.pdb
+C:\Users\User\Desktop\GameOfThronesProject - Copy\GameOfThronesBoardGame\GameOfThronesBoardGame\bin\Debug\GameOfThronesBoardGame.exe.config
+C:\Users\User\Desktop\GameOfThronesProject - Copy\GameOfThronesBoardGame\GameOfThronesBoardGame\obj\Debug\GameOfThronesBoardGame.exe
+C:\Users\User\Desktop\GameOfThronesProject - Copy\GameOfThronesBoardGame\GameOfThronesBoardGame\obj\Debug\GameOfThronesBoardGame.pdb
+C:\Users\User\Desktop\GameOfThronesProject - Copy\GameOfThronesBoardGame\GameOfThronesBoardGame\obj\Debug\GameOfThronesBoardGame.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\GameOfThronesProject - Copy\GameOfThronesBoardGame\GameOfThronesBoardGame\obj\Debug\MainWindow.baml
+C:\Users\User\Desktop\GameOfThronesProject - Copy\GameOfThronesBoardGame\GameOfThronesBoardGame\obj\Debug\MainWindow.g.cs
+C:\Users\User\Desktop\GameOfThronesProject - Copy\GameOfThronesBoardGame\GameOfThronesBoardGame\obj\Debug\App.g.cs
+C:\Users\User\Desktop\GameOfThronesProject - Copy\GameOfThronesBoardGame\GameOfThronesBoardGame\obj\Debug\GameOfThronesBoardGame_MarkupCompile.cache
+C:\Users\User\Desktop\GameOfThronesProject - Copy\GameOfThronesBoardGame\GameOfThronesBoardGame\obj\Debug\GameOfThronesBoardGame.g.resources
+C:\Users\User\Desktop\GameOfThronesProject - Copy\GameOfThronesBoardGame\GameOfThronesBoardGame\obj\Debug\GameOfThronesBoardGame.Properties.Resources.resources
+C:\Users\User\Desktop\GameOfThronesProject - Copy\GameOfThronesBoardGame\GameOfThronesBoardGame\obj\Debug\GameOfThronesBoardGame.csproj.GenerateResource.Cache

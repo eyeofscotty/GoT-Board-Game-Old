@@ -1,0 +1,12 @@
+Bay_Of_Ice: Castle_Black, Winterfell, The_Stoney_Shore, Greywater_Watch, Flints_Fingers
+Sunset_Sea: Flints_Fingers, Searoad_Marches
+Ironmans_Bay: Flints_Fingers, Greywater_Watch, Seagard, Riverrun
+The_Golden_Sound: Riverrun, Lannisport, Searoad_Marches
+West_Summer_Sea: Searoad_Marches, Highgarden, Three_Towers, Starfall, The_Arbor
+Redwyne_Straights: The_Arbor, Highgarden, Oldtown, Three_Towers
+East_Summer_Sea: Starfall, Salt_Shore, Sunspear, Storms_End
+Sea_Of_Dorne: Sunspear, Yronwood, The_Boneway, Storms_End
+Shipbreaker_Bay: Storms_End, Kingswood, Crackclaw_Point, Dragonstone
+Blackwater_Bay: Kings_Landing, Kingswood, Crackclaw_Point
+The_Narrow_Sea: Crackclaw_Point, The_Eyrie, The_Mountains_Of_The_Moon, The_Fingers, The_Twins, Moat_Cailin, White_Harbor, Widows_Watch
+The_Shivering_Sea: Widows_Watch, White_Harbor, Winterfell, Karhold, Castle_Black

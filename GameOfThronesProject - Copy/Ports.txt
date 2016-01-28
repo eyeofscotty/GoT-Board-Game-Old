@@ -1,0 +1,10 @@
+Ports:
+
+Winterfell_Port
+Pyke_Port
+Lannisport_Port
+Oldtown_Port
+Sunspear_Port
+Storms_End_Port
+Dragonstone_Port
+White_Harbor_Port

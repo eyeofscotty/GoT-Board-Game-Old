@@ -1,0 +1,340 @@
+﻿<Window x:Class="GameOfThronesBoardGame.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+        mc:Ignorable ="d"
+             d:DesignHeight="2975" d:DesignWidth="1980" 
+        >
+    <ScrollViewer HorizontalScrollBarVisibility="Auto">
+        <Grid Height="2975" Width="1980">
+            <Grid.Background>
+                <ImageBrush ImageSource="C:\\Users\\User\\Desktop\\GameOfThronesProject\\board.jpg"></ImageBrush>
+            </Grid.Background>
+            <Popup Name="Popup1" Width="120" IsEnabled="True" IsOpen="False" Placement="Mouse" >
+                <StackPanel Background="Blue">
+                    <TextBox x:Name="PopupBox" Text="Stuff in box" Height="30" Width="120"/>
+                    <Label x:Name="PopupLable1" Content = "Label content" Width = "120" Height="25"/>
+                    <Label x:Name="PopupLable2" Content = "Label content" Width = "120" Height="25"/>
+                    <Button x:Name="ClosepopUp" Content="Close Popup" Height="20" Width="120" Click="Button_Click_Close"/>
+                </StackPanel>
+            </Popup>
+            <Popup Name="PopupVictory" Width="220" IsEnabled="True" IsOpen="False" Placement="Mouse" >
+                <StackPanel Background="White">
+                    <Label x:Name="PopupVictoryLabel" Content = "Victory Label content" HorizontalContentAlignment="Center" Width = "220" Height="25"/>
+                    <Button x:Name="ClosePopupVictory" Content="Close" Height="20" Width="120" Click="ClosePopupVictory_Click"/>
+                </StackPanel>
+            </Popup>
+
+            <Popup Name="PopupChooseMarchTroops" Width="140" IsEnabled="True" IsOpen="False" Placement="Mouse">
+                <StackPanel Background="White">
+                    <Label x:Name="PopupChooseMarchTroopsLabel" Content="March Troops" HorizontalContentAlignment="Center" Width = "140" Height="25"/>
+                    <Label Content="Knights:" Width="140" Height="28"/>
+                    <ListBox x:Name="KnightListBox" Width="140" Height="65">
+                    </ListBox>
+                    <Label Content="Footmen:" Width="140" Height="28"/>
+                    <ListBox x:Name="FootmanListBox" Width="140" Height="65">
+                    </ListBox>
+                </StackPanel>
+
+            </Popup>
+
+
+            <Popup Name="ChooseOrderTokenPopup" Width="300" Height="450" IsEnabled="True" IsOpen="False" Placement="Mouse">
+                <StackPanel x:Name="OrderTokenPopupBackGround" Background= "CadetBlue">
+                    <StackPanel Orientation="Horizontal" Margin="10">
+                        <Button x:Name="RaidStar" Content="Raid*" Height="50" Width="70" Click="Click_ORDER" Margin="12,10,12,10"></Button>
+                        <Button x:Name="Raid1" Content="Raid" Height="50" Width="70" Click="Click_ORDER" Margin="12,10,12,10"></Button>
+                        <Button x:Name="Raid2" Content="Raid" Height="50" Width="70" Click="Click_ORDER" Margin="12,10,12,10"></Button>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="10">
+                        <Button x:Name="ConsolidatePowerStar" Content="Crown*" Height="50" Width="70" Click="Click_ORDER" Margin="12,10,12,10"></Button>
+                        <Button x:Name="ConsolidatePower1" Content="Crown" Height="50" Width="70" Click="Click_ORDER" Margin="12,10,12,10"></Button>
+                        <Button x:Name="ConsolidatePower2" Content="Crown" Height="50" Width="70" Click="Click_ORDER" Margin="12,10,12,10"></Button>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="10">
+                        <Button x:Name="DefenseStar" Content="Defense*+2" Height="50" Width="70" Click="Click_ORDER" Margin="12,10,12,10"></Button>
+                        <Button x:Name="Defense1" Content="Defense+1" Height="50" Width="70" Click="Click_ORDER" Margin="12,10,12,10"></Button>
+                        <Button x:Name="Defense2" Content="Defense+1" Height="50" Width="70" Click="Click_ORDER" Margin="12,10,12,10"></Button>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="10">
+                        <Button x:Name="SupportStar" Content="Support*+1" Height="50" Width="70" Click="Click_ORDER" Margin="12,10,12,10"></Button>
+                        <Button x:Name="Support1" Content="Support" Height="50" Width="70" Click="Click_ORDER" Margin="12,10,12,10"></Button>
+                        <Button x:Name="Support2" Content="Support" Height="50" Width="70" Click="Click_ORDER" Margin="12,10,12,10"></Button>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="10">
+                        <Button x:Name="MarchStar" Content="March*+1" Height="50" Width="70" Click="Click_ORDER" Margin="12,10,12,10"></Button>
+                        <Button x:Name="MarchZero" Content="March+0" Height="50" Width="70" Click="Click_ORDER" Margin="12,10,12,10"></Button>
+                        <Button x:Name="MarchMinusOne" Content="March-1" Height="50" Width="70" Click="Click_ORDER" Margin="12,10,12,10"></Button>
+                    </StackPanel>
+                </StackPanel>
+            </Popup>
+
+
+            <Grid Width="160" Height="80">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="18*"/>
+                    <ColumnDefinition Width="143*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Margin="-86,-1198,86,1198" Grid.ColumnSpan="2">
+                    <Button x:Name="CastleBlackButton" Content="CastleBlack" Height="30" Click="Button_Click_CASTLE_BLACK"/>
+                    <StackPanel x:Name="CastleBlackStackPanel"/>
+                </StackPanel>
+
+                <StackPanel Margin="85.5,-1026,-103,1026" Grid.Column="1">
+                    <Button x:Name="KarholdButton" Content="Karhold" Height="30" Click="Button_Click_KARHOLD"/>
+                    <StackPanel x:Name="KarholdStackPannel"/>
+                </StackPanel>
+
+                <StackPanel Margin="-635,-672,492.5,672">
+                    <Button x:Name="TheStoneyShoreButton" Content="The Stoney Shore" Height="30" Click="Button_Click_THE_STONEY_SHORE"/>
+                    <StackPanel x:Name="TheStoneyShoreStackPanel"/>
+                </StackPanel>
+
+                <StackPanel Margin="-386,-780,243.5,780">
+                    <Button x:Name="WinterfellButton" Content="Winterfell" Height="30" Click="Button_Click_WINTERFELL"/>
+                    <StackPanel x:Name="WinterFellStackPanel" Orientation="Horizontal">
+                    </StackPanel>
+
+                </StackPanel>
+
+                <StackPanel Margin="-86,-687,86,687" Grid.ColumnSpan="2">
+                    <Button x:Name="WhiteHarborButton" Content="WhiteHarbor" Height="30" Click="Button_Click_WHITE_HARBOR"/>
+                    <StackPanel x:Name="WhiteHarborStackPanel">
+                    </StackPanel>
+                </StackPanel>
+
+                <StackPanel Margin="58.5,-599,-76,599" Grid.Column="1">
+                    <Button x:Name="WidowsWatchButton" Content="Widow's Watch" Height="30" Click="Button_Click_WIDOWS_WATCH"/>
+                    <StackPanel x:Name="WidowsWatchStackPanel"/>
+                </StackPanel>
+
+                <StackPanel Margin="-658,-287,515.5,287">
+                    <Button x:Name="FlintsFingersButton" Content="Flint's Fingers" Height="30" Click="Button_Click_FLINTS_FINGERS"/>
+                    <StackPanel x:Name="FlintsFingersStackPanel"/>
+                </StackPanel>
+
+                <StackPanel Margin="-480,-331,337.5,331">
+                    <Button x:Name="GreywaterWatchButton" Content="Greywater Watch" Height="30" Click="Button_Click_GREYWATER_WATCH"/>
+                    <StackPanel x:Name="GreywaterWatchStackPanel"/>
+                </StackPanel>
+
+                <StackPanel Margin="-312,-287,169.5,287">
+                    <Button x:Name="MoatCailinButton" Content="Moat Cailin" Height="30" Click="Button_Click_MOAT_CAILIN"/>
+                    <StackPanel x:Name="MoatCailinStackPanel"/>
+                </StackPanel>
+
+                <StackPanel Margin="-816,-73,673.5,73">
+                    <Button x:Name="PykeButton" Content="Pyke" Height="30" Click="Button_Click_PYKE"/>
+                    <StackPanel x:Name="PykeStackPanel"/>
+                </StackPanel>
+
+                <StackPanel Margin="-480,-154,337.5,154">
+                    <Button x:Name="SeagardButton" Content="Seagard" Height="30" Click="Button_Click_SEAGARD"/>
+                    <StackPanel x:Name="SeagardStackPanel"/>
+                </StackPanel>
+
+                <StackPanel Margin="-230,-112,87.5,112">
+                    <Button x:Name="TheTwinsButton" Content="The Twins" Height="30" Click="Button_Click_THE_TWINS"/>
+                    <StackPanel x:Name="TheTwinsStackPanel"/>
+                </StackPanel>
+
+                <StackPanel Margin="26.5,-172,-44,172" Grid.Column="1">
+                    <Button x:Name="TheFingersButton" Content="The Fingers" Height="30" Click="Button_Click_THE_FINGERS"/>
+                    <StackPanel x:Name="TheFingersStackPanel"/>
+                </StackPanel>
+
+                <StackPanel Margin="-54,10,54,-10" Grid.ColumnSpan="2">
+                    <Button x:Name="TheMountainsOfTheMoonButton" Content="The Mountains Of The Moon" Height="30" Click="Button_Click_THE_MOUNTAINS_OF_THE_MOON"/>
+                    <StackPanel x:Name="TheMountainsOfTheMoonStackPanel"/>
+                </StackPanel>
+
+                <StackPanel Margin="125.5,138,-143,-138" Grid.Column="1">
+                    <Button x:Name="TheEyrieButton" Content="The Eyrie" Height="30" Click="Button_Click_THE_EYRIE"/>
+                    <StackPanel x:Name="TheEyrieStackPanel"/>
+                </StackPanel>
+
+                <StackPanel Margin="-340,138,197.5,-138">
+                    <Button x:Name="RiverrunButton" Content="Riverrun" Height="30" Click="Button_Click_RIVERRUN"/>
+                    <StackPanel x:Name="RiverrunStackPanel"/>
+                </StackPanel>
+
+                <StackPanel Margin="-564,191,421.5,-191">
+                    <Button x:Name="LannisportButton" Content="Lannisport" Height="30" Click="Button_Click_Lannisport"/>
+                    <StackPanel x:Name="LannisportStackPanel"/>
+                </StackPanel>
+
+                <StackPanel Margin="-372,311,229.5,-311">
+                    <Button x:Name="StoneySeptButton" Content="Stoney Sept" Height="30" Click="Button_Click_STONEY_SEPT"/>
+                    <StackPanel x:Name="StoneySeptStackPanel"/>
+                </StackPanel>
+
+                <StackPanel Margin="-194,251,51.5,-251">
+                    <Button x:Name="HarrenhalButton" Content="Harrenhal" Height="30" Click="Button_Click_HARRENHAL"/>
+                    <StackPanel x:Name="HarrenhalStackPanel"/>
+                </StackPanel>
+
+                <StackPanel Margin="-16,342,16,-342" Grid.ColumnSpan="2">
+                    <Button x:Name="CrackclawPointButton" Content="Crackclaw Point" Height="30" Click="Button_Click_CRACKCLAW_POINT"/>
+                    <StackPanel x:Name="CrackclawPointStackPanel"/>
+                </StackPanel>
+
+                <StackPanel Margin="385.5,251,-403,-251" Grid.Column="1">
+                    <Button x:Name="DragonstoneButton" Content="Dragonstone" Height="30" Click="Button_Click_DRAGONSTONE"/>
+                    <StackPanel x:Name="DragonstoneStackPanel"/>
+                </StackPanel>
+
+                <StackPanel Margin="-618,500,475.5,-500" >
+                    <Button x:Name="SearoadMarchesButton" Content="Searoad Marches" Height="30" Click="Button_Click_SEAROAD_MARCHES"/>
+                    <StackPanel x:Name="SearoadMarchesStackPanel"/>
+                </StackPanel>
+
+                <StackPanel Margin="-340,518,197.5,-518">
+                    <Button x:Name="BlackwaterButton" Content="Blackwater" Height="30" Click="Button_Click_BLACKWATER"/>
+                    <StackPanel x:Name="BlackwaterStackPanel"/>
+                </StackPanel>
+
+                <StackPanel Margin="-35,518,35,-518" Grid.ColumnSpan="2">
+                    <StackPanel x:Name="KingsLandingStackPanel"/>
+                    <Button x:Name="KingsLandingButton" Content="KingsLanding" Height="30" Click="Button_Click_KINGS_LANDING"/>
+                </StackPanel>
+
+                <StackPanel Margin="-266,755,124,-755">
+                    <Button x:Name="TheReachButton" Content="The Reach" Height="30" Click="Button_Click_THE_REACH"/>
+                    <StackPanel x:Name="TheReachStackPanel"/>
+                </StackPanel>
+
+                <StackPanel Margin="-359,880,216,-880">
+                    <Button x:Name="DornishMarchesButton" Content="Dornish Marhces" Height="30" Click="Button_Click_DORNISH_MARCHES"/>
+                    <StackPanel x:Name="DornishMarchesStackPanel"/>
+                </StackPanel>
+
+                <StackPanel Margin="58,880,-76,-880" Grid.Column="1">
+                    <Button x:Name="StormsEndButton" Content="Storms End" Height="30" Click="Button_Click_STORMS_ENDS"/>
+                    <StackPanel x:Name="StormsEndStackPanel"/>
+                </StackPanel>
+
+                <StackPanel Margin="138.5,620,-156,-620" Grid.Column="1">
+                    <Button x:Name="KingsWoodButton" Content="KingsWood" Height ="30" Click="Button_Click_THE_KINGS_WOOD"/>
+                    <StackPanel x:Name="TheKingsWoodStackPanel"/>
+                </StackPanel>
+
+                <StackPanel Margin="-86,900,86,-900" Grid.ColumnSpan="2">
+                    <Button x:Name="TheBoneWayButton" Content="The Boneway" Height ="30" Click="Button_Click_THE_BONEWAY"/>
+                    <StackPanel x:Name="TheBonewayStackPanel"/>
+                </StackPanel>
+
+                <StackPanel Margin="160,1120,-178,-1120" Grid.Column="1">
+                    <Button x:Name="SunspearButton" Content="SunSpear" Height ="30" Click="Button_Click_Sunspear"/>
+                    <StackPanel x:Name="SunspearStackPanel"/>
+                </StackPanel>
+
+                <StackPanel Margin="-35,1234,35,-1234" Grid.ColumnSpan="2">
+                    <Button x:Name="SaltShoreButton" Content="Salt Shore" Height ="30" Click="Button_Click_SALT_SHORE"/>
+                    <StackPanel x:Name="SaltShoreStackPanel"/>
+                </StackPanel>
+
+                <StackPanel Margin="-658,710,516,-710">
+                    <Button x:Name="HighgardenButton" Content="Highgarden" Height ="30" Click="Button_Click_HIGHGARDEN"/>
+                    <StackPanel x:Name="HighgardenStackPanel"/>
+                </StackPanel>
+
+                <StackPanel Margin="-340,986,198,-986">
+                    <Button x:Name="PrincesPassButton" Content="Princes Pass" Height ="30" Click="Button_Click_PRINCES_PASS"/>
+                    <StackPanel x:Name="PrincesPassStackPanel"/>
+                </StackPanel>
+
+                <StackPanel Margin="-412,1294,270,-1294">
+                    <Button x:Name="StarfallButton" Content="Starfall" Height ="30" Click="Button_Click_STARFALL"/>
+                    <StackPanel x:Name="StarfallStackPanel"/>
+                </StackPanel>
+
+                <StackPanel Margin="-246,1140,104,-1140">
+                    <Button x:Name="YronwoodButton" Content="Yronwood" Height ="30" Click="Button_Click_YRONWOOD"/>
+                    <StackPanel x:Name="YronwoodStackPanel"/>
+                </StackPanel>
+
+                <StackPanel Margin="-528,1100,386,-1100">
+                    <Button x:Name="ThreeTowersButton" Content="Three Towers" Height ="30" Click="Button_Click_THREE_TOWERS"/>
+                    <StackPanel x:Name="ThreeTowersStackPanel"/>
+                </StackPanel>
+
+                <StackPanel Margin="-846,1314,704,-1314" >
+                    <Button x:Name="TheArborButton" Content="The Arbor" Height ="30" Click="Button_Click_THE_ARBOR"/>
+                    <StackPanel x:Name="TheArborStackPanel"/>
+                </StackPanel>
+
+                <StackPanel Margin="-635,966,492,-966">
+                    <Button x:Name="OldtownButton" Content="Oldtown" Height ="30" Click="Button_Click_OLD_TOWN"/>
+                    <StackPanel x:Name="OldtownStackPanel"/>
+                </StackPanel>
+
+                <StackPanel Margin="26.5,1020,-44,-1020" x:Name="SeaOfDorneStackPanel" Grid.Column="1">
+                    <Button x:Name="SeaOfDorneButton" Content="Sea Of Dorne" Height ="30" Click="Button_Click_SEA_OF_DORNE"/>
+                    <TextBlock x:Name="SeaOfDorneText" Height ="25" Background="White"/>
+                </StackPanel>
+
+                <StackPanel Margin="85.5,1424,-103,-1424" Grid.Column="1">
+                    <Button x:Name="EastSummerSeaButton" Content="East Summer Sea" Height ="30" Click="Button_Click_EAST_SUMMER_SEA"/>
+                    <TextBlock x:Name="EastSummerSeaText" Height ="25" Background="White"/>
+                </StackPanel>
+
+                <StackPanel Margin="-528,1424,385.5,-1424">
+                    <Button x:Name="WestSummerSeaButton" Content="West Summer Sea" Height ="30" Click="Button_Click_WEST_SUMMER_SEA"/>
+                    <TextBlock x:Name="WestSummerSeaText" Height ="25" Background="White"/>
+                </StackPanel>
+
+                <StackPanel Margin="385.5,602,-403,-602" Grid.Column="1">
+                    <Button x:Name="ShipbreakerBayButton" Content="Shipbreaker Bay" Height ="30" Click="Button_Click_SHIPBREAKER_BAY"/>
+                    <TextBlock x:Name="ShipbreakerBayText" Height ="25" Background="White"/>
+                </StackPanel>
+
+                <StackPanel Margin="125.5,422,-143,-422" Grid.Column="1">
+                    <Button x:Name="BlackwaterBayButton" Content="Blackwater Bay" Height ="30" Click="Button_Click_BLACKWATER_BAY"/>
+                    <TextBlock x:Name="BlackwaterBayText" Height ="25" Background="White"/>
+                </StackPanel>
+
+                <StackPanel Margin="367.5,-404,-385,404" Grid.Column="1">
+                    <Button x:Name="TheNarrowSeaButton" Content="The Narrow Sea" Height ="30" Click="Button_Click_THE_NARROW_SEA"/>
+                    <TextBlock x:Name="TheNarrowSeaText" Height ="25" Background="White"/>
+                </StackPanel>
+
+                <StackPanel Margin="367.5,-720,-385,720" Grid.Column="1">
+                    <Button x:Name="TheShiveringSeaButton" Content="The Shivering Sea" Height ="30" Click="Button_Click_THE_SHIVERING_SEA"/>
+                    <TextBlock x:Name="TheShiveringSeaText" Height ="25" Background="White"/>
+                </StackPanel>
+
+                <StackPanel Margin="-902,-1072,759.5,1072">
+                    <Button x:Name="BayOfIceButton" Content="Bay Of Ice" Height ="30" Click="Button_Click_BAY_OF_ICE"/>
+                    <TextBlock x:Name="BayOfIceText" Height ="25" Background="White"/>
+                </StackPanel>
+
+                <StackPanel Margin="-902,-331,759.5,331">
+                    <Button x:Name="SunsetSeaButton" Content="Sunset Sea" Height ="30" Click="Button_Click_SUNSET_SEA"/>
+                    <TextBlock x:Name="SunsetSeaText" Height ="25" Background="White"/>
+                </StackPanel>
+
+                <StackPanel Margin="-742,-184,599.5,184">
+                    <Button x:Name="IronmansBayButton" Content="Ironman's Bay" Height ="30" Click="Button_Click_IRON_MANS_BAY"/>
+                    <TextBlock x:Name="IronmansBayText" Height ="25" Background="White"/>
+                </StackPanel>
+
+                <StackPanel Margin="-875,402,732.5,-402">
+                    <Button x:Name="TheGoldenSoundButton" Content="The Golden Sound" Height ="30" Click="Button_Click_THE_GOLDEN_SOUND"/>
+                    <TextBlock x:Name="TheGoldenSoundText" Height ="25" Background="White"/>
+                </StackPanel>
+
+                <StackPanel Margin="-816,1174,673.5,-1174">
+                    <Button x:Name="RedwyneStraightsButton" Content="Redwyne Straights" Height ="30" Click="Button_REDWYNE_STRAIGHTS"/>
+                    <TextBlock x:Name="RedwyneStraightsText" Height ="25" Background="White"/>
+                </StackPanel>
+
+
+                <StackPanel Margin="573.5,500,-591,-500" Grid.Column="1">
+                    <Button x:Name="ProceedButton" Content="Proceed" Height ="60" FontWeight="Bold" FontSize="20" Click="Button_Click_Proceed"/>
+                </StackPanel>
+
+            </Grid>
+        </Grid>
+    </ScrollViewer>
+</Window>

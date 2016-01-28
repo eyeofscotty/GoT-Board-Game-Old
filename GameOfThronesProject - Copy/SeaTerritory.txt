@@ -1,0 +1,13 @@
+Seas:
+The_Shivering_Sea:
+The_Narrow_Sea: White_Harbor
+Shipbreaker_Bay: Dragonstone, Storms_End
+Blackwater_Bay:
+Sea_Of_Dorne
+East_Summer_Sea: Sunspear
+West_Summer_Sea:
+Redwyne_Straights: Oldtown
+Sunset_Sea:
+The_Golden_Sound: Lannisport
+Ironmans_Bay: Pyke
+Bay_Of_Ice: Winterfell

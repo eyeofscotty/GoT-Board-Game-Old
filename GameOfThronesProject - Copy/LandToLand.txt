@@ -1,0 +1,38 @@
+The_Stony_Shore: Winterfell
+Castle_Black: Winterfell, Karhold
+Karhold: Castle_Black, Winterfell
+Widows_Watch: White_Harbor
+White_Harbor: Widows_Watch, Winterfell, Moat_Cailin
+Winterfell: White_Harbor, Karhold, Castle_Black, Moat_Cailin, The_Stony_Shore
+Flints_Fingers: Greywater_Watch
+Greywater_Watch: Flints_Fingers, Seagard, Moat_Cailin
+Moat_Cailin: Greywater_Watch, Seagard, The_Twins, Winterfell, White_Harbor
+Pyke: NA
+Seagard: Greywater_Watch, Moat_Cailin, The_Twins, Riverrun
+The_Twins: Seagard, Moat_Cailin, The_Fingers, The_Mountains_Of_The_Moon
+The_Fingers: The_Twins, The_Mountains_Of_The_Moon
+The_Mountains_Of_The_Moon: The_Twins, The_Fingers, The_Eyrie, Crackclaw_Point
+The_Eyrie: The_Mountains_Of_The_Moon
+Riverrun: Seagard, Harrenhal, Stoney_Sept, Lannisport
+Lannisport: Searoad_Marches, Stoney_Sept, Riverrun, Harrenhal
+Stoney_Sept: Searoad_Marches, Lannisport, Blackwater, Riverrun, Harrenhal
+Harrenhal: Riverrun, Stoney_Sept, Blackwater, Crackclaw_Point
+Crackclaw_Point: Harrenhal, Black_Water, Kings_Landing
+Dragonstone: NA
+Searoad_Marches: Lannisport, Stoney_Sept, Blackwater, Highgarden
+Blackwater: Stoney_Sept, Searoad_Marches, Harrenhal, Crackclaw_Point, The_Reach, Kings_Landing
+Kings_Landing: Crackclaw_Point, The_Reach, Kingswood, Blackwater
+Highgarden: Searoad_Marches, The_Reach, Oldtown, Dornish_Marches
+The_Reach: Highgarden, Dornish_Marches, The_Boneway, Kings_Landing, Kingswood
+Kingswood: The_Reach, Kings_Landing, The_Boneway, Storms_End
+Storms_End: The_Boneway, Kingswood
+The_Boneway: Kingswood, Storms_End, The_Reach, Dornish_Marches, Princes_Pass, Yronwood
+Oldtown: Highgarden, Dornish_Marches, Three_Towers
+Dornish_Marches: The_Reach, Highgarden, Oldtown, THe_Boneway, Three_Towers, Princes_Pass
+Three_Towers: Oldtown, Dornish_Marches, Princes_Pass
+Princes_Pass: The_Boneway, Dornish_Marches, Three_Towers, Yronwood, Starfall
+The_Arbor: NA
+Starfall: Princes_Pass, Yronwood, Salt_Shore
+Yronwood: The_Boneway, Princes_Pass, Starfall, Salt_Shore
+Salt_Shore: Yronwood, Starfall, Sunspear
+Sunspear: Salt_Shore, Yronwood

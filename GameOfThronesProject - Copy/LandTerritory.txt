@@ -1,0 +1,38 @@
+Castle_Black: CROWN
+Karhold: CROWN
+Winterfell: Crown, SUPPLY, STRONGHOLD, PORT
+The_Stony_Shore: SUPPLY
+White_Harbor: CASTLE, PORT
+Widows_Watch: SUPPLY 
+Moat_Cailin: CASTLE
+Greywater_Watch: SUPPLY
+Flints_Fingers:CASTLE
+Seagard: SUPPLY, CROWN, STRONGHOLD
+Pyke: Supply, CROWN, STRONGHOLD, PORT
+The_Twins: CROWN
+The_Fingers: SUPPLY
+The Mountains_Of_The_Moon: SUPPLY
+The_Eyrie: CROWN, SUPPLY, CASTLE
+Riverrun: SUPPLY, CROWN, STRONGHOLD
+Lannisport: SUPPLY, SUPPLY, STRONGHOLD, PORT
+Stoney_Sept: CROWN
+Harrenhal: CROWN, CASTLE
+Crackclaw_Point: CASTLE
+Searoad_Marches: SUPPLY
+Blackwater: SUPPLY, SUPPLY
+Kings_Landing: CROWN, CROWN, STRONGHOLD
+Dragonstone: CROWN, SUPPLY, STRONGHOLD, PORT
+Highgarden: SUPPLY, SUPPLY, STRONGHOLD
+The_Reach: CASTLE
+Kingswood: CROWN, SUPPLY
+Storms_End: CASTLE, PORT
+The_Boneway: CROWN
+Dornish_Marches: CROWN
+Oldtown: STRONGHOLD, PORT
+Three_Towers: SUPPLY
+Princes_Pass: CROWN, SUPPLY
+Yronwood: CASTLE
+Sunspear: CROWN, SUPPLY, STRONGHOLD, PORT
+Starfall: SUPPLY, CASTLE
+Salt_Shore: SUPPLY
+The_Arbor: CROWN
